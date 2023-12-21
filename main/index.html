@@ -14,6 +14,7 @@
         h1 {
             text-align: center;
             color: #333;
+            margin-bottom: 20px;
         }
 
         #cart {
@@ -71,6 +72,18 @@
             margin: 0;
         }
 
+        #centered-image {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        #centered-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
     </style>
 </head>
 <body>
@@ -94,6 +107,10 @@
         <button onclick="addToCart('扇子 2', 15.00)">添加到购物车</button>
     </div>
     <!-- Add more products as needed -->
+</div>
+
+<div id="centered-image">
+    <img src="微信图片_20231221092216.jpg" alt="Centered Image">
 </div>
 
 <script>
